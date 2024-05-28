@@ -1,0 +1,34 @@
+@import "variables";
+
+.app-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 52px;
+    color: $azul;
+    img{
+        margin-left: 95px;
+    }
+    
+    nav{
+        ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 24px;
+            li{
+                font-size: 16px;
+                &:last-child{
+                    margin-left: 56px;
+                }
+                button{
+                    border: none;
+                    border-radius: 130px;
+                    background-color: $azul;
+                    color: #ffff;
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+}
